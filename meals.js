@@ -28,7 +28,7 @@ meals = ["Baguette Tomate chevre",
     "Soupe",
     "Tarte mozza tomates",
     "Tarte maroilles",
-    "Tipiak Légumes secs - Dés de jambon / Poireaux / Carottes"
+    "Tipiak Légumes secs - Dés de jambon / Poireaux / Carottes",
     "Welsh"
 ]
 
