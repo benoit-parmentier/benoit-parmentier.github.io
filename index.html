@@ -1,0 +1,35 @@
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-4229759-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-4229759-1');
+
+</script>
+<script src="meals.js"></script>
+
+<html>
+
+<body>
+  <div id="ga">
+    Hello Google Analytics !
+  </div>
+
+  <br>
+
+  <div id="meals">
+    <script>
+      var arr = generateWeekMeals();
+      for (i = 0; i < arr.length; i++) {
+        document.write((i+1) + ") " + arr[i] + '<br />');
+      }
+    </script>
+  </div>
+</body>
+
+</html>
