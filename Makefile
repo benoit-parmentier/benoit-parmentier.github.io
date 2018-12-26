@@ -1,6 +1,6 @@
 build:
 	echo meals build
-	cgroupfs-mount
+	@cgroupfs-mount || true
 	docker build -t meals .
 
 	@docker stop cmeals || true
